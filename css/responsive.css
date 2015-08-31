@@ -51,16 +51,18 @@
 	/* .topslider_text */
 	.title{
 	width: 65.333%;
-	margin-top: -1063px;
+	margin-top: -1079px;
 	margin-left: -56px;
 	}
 
     .title h1{
        width: 65.333%;
-       margin-left: 11px;
+       margin-left: 95px;
     }
     .title p{
     	 margin-left: 154px;
+    	 width:59px;
+    	 
     }
 
 
