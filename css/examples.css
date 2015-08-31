@@ -60,15 +60,15 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	font-size: 5em;
 }
 p{
-	font-size: 2em;
+	font-size: 14px;
 }
 .intro p{
 	width: 50%;
 	margin: 0 auto;
-	font-size: 1.5em;
+	font-size:14px;
 }
 .section{
 	text-align:center;
@@ -253,15 +253,15 @@ p{
 
 .carousel_box img{
     width: 50%;
-	margin-bottom: 0px;
-    border-radius: 3px;
-    float: right;
-    height: 1100px;
+margin-bottom: 0px;
+border-radius: 3px;
+float: right;
+height: 1100px;
 }
 
 .carusel_3{
     overflow: hidden;
-    margin: 0 -15px;
+   margin: 0px -15px;
 }
 
 .posts .slider_foo_3 {
@@ -277,7 +277,7 @@ p{
 }
 .title{
 	float: left;
-    margin-left: -7px;
-    width: 849px;
-    margin-top: -797px;
+margin-left: -7px;
+width: 849px;
+margin-top: -797px;
 }
