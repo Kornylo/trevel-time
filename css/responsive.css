@@ -47,6 +47,24 @@
 	}*/
 	
 }
+@media only screen and (min-width: 800px){
+	/* .topslider_text */
+	.title{
+	width: 65.333%;
+	margin-top: -1063px;
+	margin-left: -56px;
+	}
+
+    .title h1{
+       width: 65.333%;
+       margin-left: 11px;
+    }
+    .title p{
+    	 margin-left: 154px;
+    }
+
+
+}
 
 @media only screen and (min-width: 940px){
 	/* .topslider_text */
@@ -301,9 +319,21 @@
 /* ------------------------------- TopSlider -------------------------------- */
 
 @media only screen and (min-width:961px) and (max-width:1024px){
-	#info_topslider h1 span.title{
-		font-size: 10em;
+	.title {
+	width: 51.333%;
+	margin-left: -32px;
+	margin-top: -885px;
+	} 
+	.title p{
+	width: 65.333%;
+	margin-left: 135px;
 	}
+	.title h1 {
+	width: 71.333%;
+	margin-left: 122px;
+	
+	}
+	
 }
 
 @media only screen and (min-width:220px) and (max-width:960px){
@@ -329,8 +359,8 @@
 @media only screen and (min-width:1280px) and (max-width:1680px){
 	.title {
 	width: 51.333%;
-	margin-left: -10px;
-	margin-top: -784px;
+	margin-left: -32px;
+	margin-top: -885px;
 	} 
 	.title p{
 	width: 65.333%;
