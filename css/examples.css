@@ -54,10 +54,7 @@ fieldset,img {
     border: 0;
     width: 313px;
 }
-address,caption,cite,code,dfn,em,strong,th,var {
-    font-weight: normal;
-    font-style: normal;
-}
+
 strong{
 	font-weight: bold;
 }
@@ -72,7 +69,6 @@ caption,th {
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
-    font-size: 100%;
     margin:0;
     padding:0;
     color:#444;
@@ -97,9 +93,7 @@ body{
 	width: 960px;
 	position: relative;
 }
-h1{
-	font-size: 5em;
-}
+
 p{
 	font-size: 14px;
 }
@@ -441,7 +435,4 @@ li.active a, a:hover, a:active {
 }
 .distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
   color: #afe1fa;
-}
-.centered-y h2 {
-	 font-size: 24pt;
 }
