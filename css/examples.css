@@ -718,9 +718,9 @@ li.active a, a:hover, a:active {
 }
 .cd-item-info p {
      line-height: 1.6;
-    margin: 10em -14px -55px;
+margin: 3em 351px -14px;
     color: #67919c;
-    float: right;
+   
 }
 .cd-item-info .cd-item-action li {
   display: inline-block;
