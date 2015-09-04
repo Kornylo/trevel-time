@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -17,6 +17,8 @@
       <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
       <link rel="stylesheet" type="text/css" href="css/examples.css" />
       <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+ <!-- Resource style -->
       <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css">
       <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
       <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
@@ -31,17 +33,7 @@
 
   <script type="text/javascript" src="js/jquery.fullPage.js"></script>
   <script type="text/javascript" src="js/examples.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        sectionsColor: ['rgba(27, 188, 155, 0.41)', 'rgba(75, 191, 195, 0.52);', 'rgba(123, 170, 190, 0.58)', 'rgba(109, 130, 201, 0.52)', '#ccddff'],
-        anchors: ['home', 'secondPage', '3rdPage', 'second', 'lastPage'],
-        menu: '#menu',
-        scrollingSpeed: 200
-      });
-
-    });
-  </script>
+ 
   </head>
   <body>
     <!-- Header Area -->
@@ -578,43 +570,92 @@
 
   <div class="section" id="section3">
     <div class="intro">
-      <h1>Slooooooww</h1>
-      <p>Now you can try other demos!</p>
+        <header>
+    <h1>Product Quick View</h1>
+  </header>
+  
+  <ul class="cd-items cd-container">
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+    <li class="cd-item">
+      <img src="img/item-1.jpg" alt="Item Preview">
+      <a href="#0" class="cd-trigger">Quick View</a>
+    </li> <!-- cd-item -->
+
+
+  </ul> <!-- cd-items -->
+
+  <div class="cd-quick-view">
+    <div class="cd-slider-wrapper">
+      <ul class="cd-slider">
+        <li class="selected"><img src="img/item-1.jpg" alt="Product 1"></li>
+        <li><img src="img/item-2.jpg" alt="Product 2"></li>
+        <li><img src="img/item-3.jpg" alt="Product 3"></li>
+      </ul> <!-- cd-slider -->
+
+      <ul class="cd-slider-navigation">
+        <li><a class="cd-next" href="#0">Prev</a></li>
+        <li><a class="cd-prev" href="#0">Next</a></li>
+      </ul> <!-- cd-slider-navigation -->
+    </div> <!-- cd-slider-wrapper -->
+
+    <div class="cd-item-info">
+      <h2>Produt Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+
+    </div> <!-- cd-item-info -->
+    <a href="#0" class="cd-close">Close</a>
+  </div> <!-- cd-quick-view -->
     </div>
   </div>
 
 </div>
     
 
+<script src="modal/js/velocity.min.js"></script>
+<script src="modal/js/main.js"></script> <!-- Resource jQuery -->
   <script src="js/fancybox/source/jquery.fancybox.js"></script>
   <script src="js/jquery.vegas.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script> 
 	
 <!-- Slideshow Background  -->
-	<script>
-$.vegas('slideshow', {
-  delay:5000,
-  backgrounds:[
-     { src:'./img/nature1.jpg', fade:2000 },
-	 { src:'./img/bw1.jpg', fade:2000 },
-    { src:'./img/portrait1.jpg', fade:2000 },
-	 { src:'./img/portrait5.jpg', fade:2000 },
-    { src:'./img/portrait2.jpg', fade:2000 },
-    { src:'./img/portrait3.jpg', fade:2000 },
-	 { src:'./img/portrait4.jpg', fade:2000 },
-	   { src:'./img/forest.jpg', fade:2000 }
-	   
-  ]
-})('overlay', {
-src:'./img/overlay.png'
-});
-
-	</script>
 <!-- /Slideshow Background -->
 
 
-\
 <!-- /Navbar-->
 	
   </body>
