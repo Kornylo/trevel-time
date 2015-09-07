@@ -94,13 +94,14 @@ color: #000;
 	float:left;
 	margin:0px 2px;
 }
-.va-slice ul li a{
-	color:#000;
-	background:#eede2f;
-	padding:3px 6px;
-	font-size:14px;
-	font-family:'PT Sans', sans-serif;
-	text-transform:uppercase;
+.va-slice ul li a {
+    color: #000;
+    background: #eede2f;
+    padding: 3px 6px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    margin-left: 438px;
 }
 .va-slice ul li a:hover{
 	background:#000;
