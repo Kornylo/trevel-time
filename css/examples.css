@@ -284,13 +284,14 @@ p{
 }
 
 .carousel_box img{
-    width: 5%;
-margin-bottom: 50%;
-border-radius: 3px;
-float: right;
-margin-top: 9%;
-margin-left: 20px;
-}
+    width: 41%;
+    margin-bottom: 50%;
+    border-radius: 3px;
+    float: right;
+    margin-top: 9%;
+    margin-right: 80px;
+
+
 }
 
 .carusel_3{
