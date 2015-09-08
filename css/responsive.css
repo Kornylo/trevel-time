@@ -263,22 +263,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.carousel_box img{
-	width: 330px;
-	height: 280px;
-	margin-bottom:100%;
-	margin-top: 1px;
-	}
-	.title{
-	width: 77.333%;
-	margin-left: 59px;
-	margin-top: -838px;
-	}
-      .title p{
-      	width: 115%;
-	margin: 0px auto;
-	font-size: 14px;
-	margin-left: -27px;
+
       }
 
 }
