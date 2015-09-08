@@ -245,14 +245,14 @@
 @media (max-width: 767px) {
 	.carousel_box img{
 	width: 330px;
-	height: 311px;
+	height: 280px;
 	margin-bottom:100%;
 	margin-top: 1px;
 	}
 	.title{
 	width: 77.333%;
 	margin-left: 59px;
-	margin-top: -805px;
+	margin-top: -838px;
 	}
       .title p{
       	width: 115%;
@@ -263,15 +263,24 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.text-left-sm {
-	text-align: left;
+	.carousel_box img{
+	width: 330px;
+	height: 280px;
+	margin-bottom:100%;
+	margin-top: 1px;
 	}
-	.text-right-sm {
-	text-align: right;
+	.title{
+	width: 77.333%;
+	margin-left: 59px;
+	margin-top: -838px;
 	}
-	.text-center-sm {
-	text-align: center;
-	}
+      .title p{
+      	width: 115%;
+	margin: 0px auto;
+	font-size: 14px;
+	margin-left: -27px;
+      }
+
 }
 
 @media (min-width: 992px) and (max-width: 939px) {
