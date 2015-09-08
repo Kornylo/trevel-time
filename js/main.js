@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
       $('#fullpage').fullpage({
-        sectionsColor: ['rgba(27, 188, 155, 0.41)', 'rgba(75, 191, 195, 0.52);', 'rgba(123, 170, 190, 0.58)', 'rgba(109, 130, 201, 0.52)', '#ccddff'],
+        sectionsColor: ['rgba(27, 188, 155, 0.41)', 'rgba(75, 191, 195, 0.52)', 'rgba(123, 170, 190, 0.58)', 'rgba(109, 130, 201, 0.52)', '#ccddff'],
         anchors: ['home', 'secondPage', '3rdPage', 'second', 'lastPage'],
         menu: '#menu',
         scrollingSpeed: 200
