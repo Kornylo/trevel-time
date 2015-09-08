@@ -373,7 +373,7 @@ li.active a, a:hover, a:active {
   margin: 0 auto;
 }
 .distribution-map > img {
-  width: 100%;
+  width: 85%;
   position: relative;
   margin: 0;
   padding: 0;
